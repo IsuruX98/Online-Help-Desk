@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Help desk</title>
+    <title>Contact Us</title>
 
     <!-- UIkit CSS -->
     <link
@@ -77,15 +77,94 @@
     <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
       <div>
         <div class="uk-card">
-          <div class="uk-position-center uk-position-relative">
-            <p>hi</p>
+          <div class="uk-container uk-container-large uk-padding-large">
+            <article
+              class="uk-article uk-margin-large"
+              data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true"
+            >
+              <h1 class="uk-text-center uk-text-bolder">Contact Us</h1>
+              <div class="uk-article-content">
+                <form
+                  class="uk-form-stacked uk-margin-medium-top uk-margin-medium-bottom"
+                >
+                  <div class="uk-margin-bottom">
+                    <label class="uk-form-label uk-text-left" for="name"
+                      >Name</label
+                    >
+                    <div class="uk-form-controls">
+                      <input
+                        id="name"
+                        class="uk-input uk-border-rounded"
+                        name="name"
+                        type="text"
+                        placeholder="your name...."
+                        required=""
+                      />
+                    </div>
+                  </div>
+                  <div class="uk-margin-bottom">
+                    <label class="uk-form-label uk-text-left" for="name"
+                      >E-mail</label
+                    >
+                    <div class="uk-form-controls">
+                      <input
+                        id="uemail"
+                        class="uk-input uk-border-rounded"
+                        name="uemail"
+                        type="email"
+                        placeholder="your email...."
+                        required=""
+                      />
+                    </div>
+                  </div>
+                  <div class="uk-margin-bottom">
+                    <label class="uk-form-label uk-text-left" for="name"
+                      >Subject</label
+                    >
+                    <div class="uk-form-controls">
+                      <input
+                        id="subject"
+                        class="uk-input uk-border-rounded"
+                        name="subject"
+                        type="text"
+                        placeholder="your subject...."
+                        required=""
+                      />
+                    </div>
+                  </div>
+                  <div class="uk-margin-bottom">
+                    <label class="uk-form-label" for="message">Message</label>
+                    <div class="uk-form-controls">
+                      <textarea
+                        id="message"
+                        class="uk-textarea uk-border-rounded"
+                        name="message"
+                        rows="5"
+                        minlength="10"
+                        required=""
+                        placeholder="enter your message here..."
+                      ></textarea>
+                    </div>
+                  </div>
+
+                  <br />
+                  <div class="uk-text-center">
+                    <input
+                      class="uk-button uk-button-primary uk-border-rounded uk-width-1-1"
+                      type="submit"
+                      value="submit"
+                    />
+                  </div>
+                </form>
+              </div>
+            </article>
           </div>
         </div>
       </div>
       <div>
-        <div class="uk-card">
+        <div class="uk-card uk-background-default">
           <div class="uk-position-center uk-position-relative">
-            <p>hi</p>
+            <img width="550px" src="/Help Desk//src/img/contactUs.jpg" alt="" />
           </div>
         </div>
       </div>
